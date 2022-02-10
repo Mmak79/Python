@@ -1,4 +1,3 @@
-from itertools import count
 
 a = int(input("Enter current distance (km): "))
 b = int(input("Enter target distance (km): "))
@@ -11,10 +10,3 @@ while a < b:
     a = a + delta
 
 print(day)
-
-
-
-
-
-
-
